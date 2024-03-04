@@ -1,32 +1,32 @@
-## Deployed Link - https://data-form-google-sheet.vercel.app/
-## Google Sheet Link - https://docs.google.com/spreadsheets/d/1VapHovBWX465rAr-R6IlcHH44kuHUn5Zs_ag12BW_o0/edit#gid=0
+### Deployed Link - https://data-form-google-sheet.vercel.app/
+### Google Sheet Link - https://docs.google.com/spreadsheets/d/1VapHovBWX465rAr-R6IlcHH44kuHUn5Zs_ag12BW_o0/edit#gid=0
 
 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Once We Clone the Repository, we have to run the following commands ->
+### Once We Clone the Repository, we have to run the following commands ->
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Deployment
+#### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+#### `npm run build` fails to minify
 
 This function creates a compact folders of all the essential part of the application so that it can be deployed. 
 
 
-# Steps to integrate Google Sheets with React.js using Google App Scripts
+## Steps to integrate Google Sheets with React.js using Google App Scripts
 Integrating Google Sheets with a React.js application using Google Apps Script involves creating an Apps Script project to act as an intermediary between our React.js front end and the Google Sheets backend. This allows our React.js application to send data to Google Sheets for storage and retrieval. Here are the steps to achieve this integration:
 
 1. Create a new Google Sheets document or open an existing one.
