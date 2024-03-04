@@ -1,6 +1,12 @@
+# Deployed Link - https://data-form-google-sheet.vercel.app/
+# Google Sheet Link - https://docs.google.com/spreadsheets/d/1VapHovBWX465rAr-R6IlcHH44kuHUn5Zs_ag12BW_o0/edit#gid=0
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Once We Clone the Repository, we have to run the following commands ->
 
 ## Available Scripts
 
@@ -11,60 +17,25 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This function creates a compact folders of all the essential part of the application so that it can be deployed. 
+
+
+# Steps to integrate Google Sheets with React.js using Google App Scripts
+Integrating Google Sheets with a React.js application using Google Apps Script involves creating an Apps Script project to act as an intermediary between our React.js front end and the Google Sheets backend. This allows our React.js application to send data to Google Sheets for storage and retrieval. Here are the steps to achieve this integration:
+
+1. Create a new Google Sheets document or open an existing one.
+2. Set up the sheet with the necessary columns to store your data.
+3. Go to the Google Apps Script website.
+4. Create a new project and give it a name.
+5. Write the Apps Script code to handle incoming HTTP requests and interact with Google Sheets.
+6. Deploy your Apps Script project as a web app to obtain a URL that your React.js application can send requests to.
+7. Choose "Web App" as the deployment type and configure settings like access permissions.
+8. Deploy the web app and note down the URL generated.
+9. Create a new React.js application or use an existing one and fetch the api from Google Sheet backend.
+10. Now after fixing the CORS issue, we can create the frontend and retrieve the data written in the app directly from google sheet.
